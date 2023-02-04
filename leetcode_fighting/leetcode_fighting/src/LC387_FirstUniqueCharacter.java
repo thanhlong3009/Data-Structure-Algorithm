@@ -23,5 +23,17 @@ public class LC387_FirstUniqueCharacter {
             }
         }
         return -1;
+
+        // Cách 2:
+//        int alps = Integer.MAX_VALUE;
+//        for (char c = 'a'; c <= 'z'; c++) {
+//            int index = s.indexOf(c);
+//            if (index != -1 && index == s.lastIndexOf(c)) {
+//                alps = Math.min(alps, index);
+//
+//            }
+//
+//        }
+//        return alps == Integer.MAX_VALUE ? -1 : alps;
     }
 }

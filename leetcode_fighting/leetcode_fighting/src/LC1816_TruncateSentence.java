@@ -19,7 +19,7 @@ public class LC1816_TruncateSentence {
 
         }
         return s;
-        
+
 //        String[] arr = s.split(" ");
 //        String[] arr2 = new String[k];
 //        for (int i = 0; i < k; i++) {
