@@ -1,3 +1,5 @@
+package day04;
+
 public class LC344_ReverseString {
     public static void main(String[] args) {
         char[] s = {'H', 'a', 'n', 'n', 'a', 'h' };
