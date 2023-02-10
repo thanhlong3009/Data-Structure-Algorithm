@@ -17,6 +17,7 @@ public class LC50_PowX_N {
             }
         }
         if (n < 0) {
+
             n = -n;
             x = 1/x;
         }
@@ -30,4 +31,5 @@ public class LC50_PowX_N {
             return x*myPow(x*x,n/2);
         }
     }
+
 }
