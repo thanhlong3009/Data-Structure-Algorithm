@@ -2,7 +2,7 @@ package midterm_exam;
 
 public class LC75_SortColors {
     // đề bài : sắp xếp mảng theo thứ tự tăng dần và mảng chỉ gồm 0,1,2
-    // cách làm:
+    
     // sử dụng 2 vòng lặp for
     // sau mỗi vòng for nhỏ sẽ dồn được 1 số lớn về cuối mảng
     // => vòng lặp to sẽ đếm số lần duyệt => số lần lặp = số phần tử của mảng.
