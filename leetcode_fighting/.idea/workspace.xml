@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6f7bcbd-59ba-4b14-90ed-b07d9f0753fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../day_02/lesson_02/src/main/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode_fighting/src/LC1221_SplitAStringInBalancedStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode_fighting/src/LC1281_SubtractTheProductAndSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode_fighting/src/LC1342_NumberOfSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode_fighting/src/LC1389_CreateTargetArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode_fighting/src/LC1480_RunningSumOf1dArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode_fighting/src/LC1773_CountItemsMatchingARule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode_fighting/src/LC1832_CheckIfTheSentenceIsPangram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode_fighting/src/LC1920_BuildArrayFromPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode_fighting/src/LC1929_ConcatenationOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode_fighting/src/LC20_Valid_Parentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode_fighting/src/LC2363_MergeSimilarItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode_fighting/src/LC2469_ConvertTheTemperature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode_fighting/src/LC2535_DifferenceBetweenElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode_fighting/src/LC804_UniqueMorseCodeWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode_fighting/src/LC989_AddToArrayFormOfInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode_fighting/src/day03_Sorted/LC1464_MaximumProductOfTwoElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode_fighting/src/day03_Sorted/LC561_ArrayPartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode_fighting/src/day05_BinarySearch/LC2089_FindTargetIndices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode_fighting/out/production/leetcode_fighting/day05_BinarySearch/ERROR_LC2089_FindTargetIndices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode_fighting/out/production/leetcode_fighting/midterm_exam/LC367_ValidPerfectSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode_fighting/out/production/leetcode_fighting/midterm_exam/LC367_ValidPerfectSquare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode_fighting/src/day05_BinarySearch/ERROR_LC2089_FindTargetIndices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode_fighting/src/midterm_exam/LC75_SortColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode_fighting/src/midterm_exam/LC75_SortColors.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,14 +42,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/tranthanhlong/TechMaster/Cấu trúc dữ liệu và giải thuật/Data-Structure-Algorithm/leetcode_fighting"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/tranthanhlong/TechMaster/Cấu trúc dữ liệu và giải thuật/Data-Structure-Algorithm/leetcode_fighting&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,6 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675338444836</updated>
       <workItem from="1675338445926" duration="24000" />
+      <workItem from="1676714461257" duration="15000" />
     </task>
     <servers />
   </component>

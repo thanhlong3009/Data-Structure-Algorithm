@@ -8,11 +8,11 @@ public class Main {
     }
 
     public static int binarySearch(int[] arr, int target) {
-        int left = 0, right = arr.length - 1;
+        int left = 0, right = arr.length - 1; // 4
 
-        while (left <= right) { // left = right -> mảng con chỉ chứa duy nhất 1 phần tử
-            int mid = (left + right) / 2;
-            if (arr[mid] == target) {
+        while (left <= right) { // left = right -> mảng con chỉ chứa duy nhất 1 phần tử //1
+            int mid = (left + right) / 2;  //3
+            if (arr[mid] == target) { //2
                 return mid;
             }
             if (arr[mid] < target) {
