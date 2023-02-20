@@ -1,3 +1,5 @@
+package day_07;
+
 import java.util.Arrays;
 
 public class LC283_MoveZeroes {
@@ -21,7 +23,7 @@ public class LC283_MoveZeroes {
             nums[idx] = 0;
             idx++;
         }
-// -> sum = 3n + 2n - 2idx +3 = 5n -2idx + 3 > 3n + 3 <=> 3n ( n >= idx với mọi n)
+        // -> sum = 3n + 2n - 2idx +3 = 5n -2idx + 3 > 3n + 3 <=> 3n ( n >= idx với mọi n)
         // => độ phức tạp O(n)
     }
 }
