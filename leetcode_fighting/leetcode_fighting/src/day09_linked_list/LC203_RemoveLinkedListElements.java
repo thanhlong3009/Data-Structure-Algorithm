@@ -20,6 +20,7 @@ public class LC203_RemoveLinkedListElements {
     public ListNode removeElements(ListNode head, int val) {
         ListNode x=head;
         ListNode it=x;
+        // Lọc các phần tử có val == val trong list
         while(x!=null && x.val==val){
             head=x.next;
             x=head;
