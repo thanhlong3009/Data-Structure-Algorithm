@@ -1,6 +1,7 @@
-package day_10_stack_queue;
+package day_10_stack_queue.LC933;
 
-public class LC933_NumberOfRecentCalls {
+public class RecentCounter {
+
     static class Node{
         int val;
         Node next;
@@ -11,9 +12,15 @@ public class LC933_NumberOfRecentCalls {
 
     static int size;
     static Node head,tail;
+
+    public RecentCounter() {
+        head = null;
+        tail = null;
+        size = 0;
+    }
+
     public static int getSize(){
         return size;
-        // return size of queue
     }
 
     public static int getFirst() {
@@ -21,20 +28,8 @@ public class LC933_NumberOfRecentCalls {
             return -1;
         }
         return head.val;
-        // return the first element in queue
     }
 
-    public int ping(int t) {
-        while (!queue.isEmpty() && t - queue.peek() > 3000) {
-            queue.poll();
-        }
-        while (getFirst() != 0 && t - getFirst() > 3000){
-
-        }
-
-        queue.add(t);
-        return queue.size();
-    }
     public static void push(int val){
         Node newNode = new Node(val);
 
@@ -45,11 +40,26 @@ public class LC933_NumberOfRecentCalls {
             tail.next = newNode;
             tail = tail.next;
         }
-
         size ++;
-        // add a new element into queue
     }
+    public static void removeFirst(){
+        if (head == null){
+            return;
+        }
+        if (head == tail){
+            head = head.next;
+            tail = tail.next;
+        }else {
+            head = head.next;
+        }
+        size--;
+    }
+    public static int ping(int t) {
+        push(t);
+        while ( t - 3000 > getFirst() ){
+            removeFirst();
+        }
 
-
-
+        return getSize();
+    }
 }
