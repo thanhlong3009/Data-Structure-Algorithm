@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Objects;
 
 public class MyHashMap {
-
     private static final  int SIZE = 10000;
     private List<Node> [] buckets;
     public MyHashMap() {
@@ -15,8 +14,6 @@ public class MyHashMap {
             buckets[i] = new LinkedList<>();
         }
     }
-
-
     public  void put(int key, int value) {
         // biến key thành 1 index : hashfunction
         int hashIndex = hashFunction(key);
@@ -36,26 +33,11 @@ public class MyHashMap {
         }else {
             bucket.get(indexOfKey).value = value;
         }
-//        if (bucket.contains(node)){
-//            // bucket đã chứa key này rồi
-//            // ghi đè giá trị value mới
-//            int indexOfNode = bucket.indexOf(node);
-//            bucket.get(indexOfNode).value = value;
-//
-//        }else {
-//            // bucket chưa có key này, chỉ việc add thôi
-//            bucket.add(node);
-//        }
-
-        // nếu bucket đã có key này
     }
-
     public  int get(int key) {
         // tìm hash index
-
         int hashIndex  = hashFunction(key);
         List<Node> bucket = buckets[hashIndex];
-
         // nếu bucket chưa có key này
         // chekc xem đã có node key này chưa
         Node node = new Node(key,-1);
@@ -68,7 +50,6 @@ public class MyHashMap {
             return bucket.get(indexOfKey).value;
         }
     }
-
     public  void remove(int key) {
         // tìm hash index
         int hashIndex  = hashFunction(key);
