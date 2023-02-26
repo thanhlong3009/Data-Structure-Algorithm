@@ -51,7 +51,12 @@ public class MinStack {
     }
 
 
+    //"MinStack","push","top","getMin
     public static void main(String[] args) {
+        push(-1);
+        System.out.println(top());
+        System.out.println(getMin());
+
 
     }
 }
