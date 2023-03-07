@@ -1,5 +1,7 @@
 package day_04.homework;
 
+import java.util.Arrays;
+
 public class ArrayByRecursive {
     public static void main(String[] args) {
         int[][] arr = {
@@ -20,5 +22,7 @@ public class ArrayByRecursive {
             recursive2dArray(arr,row + 1,0);
         }
         System.out.println(" E : " + row + " , " +col);
+
+
     }
 }

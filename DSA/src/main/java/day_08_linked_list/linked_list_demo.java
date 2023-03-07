@@ -61,6 +61,7 @@ public class linked_list_demo {
             }
             count++;
             current = current.next;
+
         }
 
     }
